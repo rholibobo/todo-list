@@ -27,6 +27,8 @@ add_button.addEventListener('click', function(){
 
 
     visible_text.setAttribute("type", "text");
+    visible_text.appendChild(text_field);
+    visible_text.appendChild(deleteButton);
     
    
 
