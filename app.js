@@ -111,6 +111,8 @@ function action(key) {
             }
             else {
                 error_message.textContent = "";
+                todo_text.value = "";
+
             }
             break;
         default:
