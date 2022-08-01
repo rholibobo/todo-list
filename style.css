@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -102,6 +102,15 @@ main section .center .center1 .input-text button {
 .wrap1 {
     display: flex;
     justify-content: space-between;
+    animation: showlist .3s linear alternate;
+}
+@keyframes showlist{
+    0%{
+        transform: scale(0.7)
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 main section .center2 .for-text {
@@ -122,9 +131,18 @@ main section .center2 .for-text:hover{
     display: inline-block;
     padding: 9px;
     position: relative;
+    animation: showlist .3s linear alternate;
     
     
 
+}
+@keyframes showlist{
+    0%{
+        transform: scale(0.7)
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 .text:hover{
     background-color:rgba(0, 0, 0, 0.75) ;
@@ -198,4 +216,6 @@ main section .center .error-message{
     width: 80%;
     font-size: 11px;
 }
-}
+
+} 
+ 
