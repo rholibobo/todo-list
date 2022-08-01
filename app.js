@@ -31,6 +31,9 @@ add_button.addEventListener('click', function () {
 
     // todo_text.value = todo_text.value.slice(0);
 
+    visible_text.setAttribute("type", "text");
+    visible_text.appendChild(text_field);
+    visible_text.appendChild(deleteButton);
     
 
     // visible_text.setAttribute("type", "text");
